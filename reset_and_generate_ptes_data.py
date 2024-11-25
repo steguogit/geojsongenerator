@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Configuration
-MONGO_URI = "mongodb+srv://<username>:<password>@<your-cluster-url>/ptes?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://<username>:<password>@<your-cluster-url>/ptes?retryWrites=true&w=majority" //Follow README.md to update the mongo URI before testing. 
 DATABASE_NAME = "ptes"
 NUMBER_OF_LOCATIONS = 100
 NUMBER_OF_TRANSPORT_MODES = 9  # As per PTES
